@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta name="DC.Creator" content="Christiane Peters"></meta>
+  <meta name="DC.Type" content="Text"></meta>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8"></meta>
+  <meta http-equiv="Content-Style-Type" content="text/css"></meta>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <title> Christiane Peters </title>
+</head>
+
+
+<body>
+
+<p>
+Here we present an implementation of the iteration count of 
+<a href="./#2008.mceliece">
+an improved variant of Stern's algorithm for binary linear codes</a>
+by <a href="http://cr.yp.to/djb.html">Daniel J. Bernstein</a>,
+<a href="http://www.hyperelliptic.org/tanja/"> Tanja Lange</a>,
+and myself.
+<br></br>
+<br></br>
+<b>
+The analysis at 
+<a href="http://www2.mat.dtu.dk/people/C.Peters/isdfq.html">http://www2.mat.dtu.dk/people/C.Peters/isdfq.html</a>
+supersedes this analysis since it gives the iteration/operation count of 
+<a href="./#2009.isdfq">
+state-of-the-art 
+information-set decoding for codes over fields over arbitrary fields F<sub>q</sub></a>.
+</b>
+</p>
+
+<p> Compute the iteration counts for 
+<a href="./#2008.mceliece">our attack</a> on the McEliece 
+cryptosystem using the type-3 Markov-chain analysis. 
+<br></br>
+
+</p>
+
+<p>
+<a href="pqcrypto08/type3.c">http://www2.mat.dtu.dk/people/C.Peters/pqcrypto08/type3.c</a>
+</p>
+
+<p>
+Note that you might need to increase the level of precision if 
+you consider codes of length greater than 1024. Change the line 
+<br></br>
+<tt class="indent">  int prec = 150; </tt>
+<br></br>
+to something more convenient.
+</p>
+
+</body>
+</html>
