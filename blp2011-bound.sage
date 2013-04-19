@@ -1,3 +1,7 @@
+# author: Christiane Peters, http://christianepeters.wordpress.com
+# April 2013
+# run using 'sage blp2011-bound.sage'
+
 def log2(x):
   return log(x)/log(2)
 
@@ -18,5 +22,7 @@ def bound(n,k,w):
   return min;
 
 
-bound(6624,5129,117)
-bound(1024,524,50)
+n=6624;k=5129;w=117
+print n,k,w,bound(n,k,w)
+n=1024;k=524;w=50;
+print n,k,w,bound(n,k,w)
