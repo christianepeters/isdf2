@@ -1,8 +1,6 @@
 /*
  *  author: 
- *    Christiane Peters, 
- *    c.p.peters@mat.dtu.dk
- *
+ *    Christiane Peters, http://christianepeters.wordpress.com
  * 
  *  date: 12-sep-2008
  *
@@ -21,8 +19,7 @@
  *    To appear in: Proceedings of PQCrypto 2008, 
  *    Lecture Notes in Computer Science, Springer, 2008. 
  *    
- *    http://www2.mat.dtu.dk/people/C.Peters/2008-mceliece.pdf
- *
+ *  pdf: http://eprint.iacr.org/2008/318
  *
  *  this program uses the MPFI library
  *    See http://perso.ens-lyon.fr/nathalie.revol/mpfi.html
